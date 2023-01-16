@@ -48,6 +48,7 @@ export default function LotteryEntrance() {
         functionName: "getNumberOfPlayers",
         params: {},
     })
+    console.log(getPlayersNumber)
 
     const { runContractFunction: getRecentWinner } = useWeb3Contract({
         abi: abi,
